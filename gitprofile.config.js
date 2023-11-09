@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'OmarJabri7', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 0, // How many projects to display.
+    limit: 2, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -94,7 +94,7 @@ const config = {
     {
       title: 'Robotics RoboCup Challenge',
       description:
-        "This project is about designing and simulating the RoboCup challenge - the football match with robots as players. The simulation involves two teams of five robots competing against each other. The robots are designed as two-wheel differential drive machines with an internal logic processor and a capability to communicate with different robots. Our design is presented in a simulated environment that takes into account all constraints of the challenge. The main building blocks of this project are the following:\nRobot Operating System (ROS) - a platform that combines all the design's components into one distributed system that treats each executable program as a thread in the given system.\nPython - a programming language used to develop the executable programs representing the robot's decision-making process, planning and actions.\nPyGame - a visualisation framework to display the main components of the environment: football field (e.g., goals, line separators), robot structures (chassis size, scale, orientation and form).\nAll of these tools allowed us to work as a team and structure our solution as fast-paced sprints alongside long-term milestones.\nTools: Python, ROS, PyGame",
+        "This project is about designing and simulating the RoboCup challenge - the football match with robots as players. The simulation involves two teams of five robots competing against each other. The robots are designed as two-wheel differential drive machines with an internal logic processor and a capability to communicate with different robots. Our design is presented in a simulated environment that takes into account all constraints of the challenge.\nTools: Python, ROS, PyGame",
       imageUrl: 'https://raw.githubusercontent.com/szgula/UofG_Robotics_TDP/main/Images/Log/Robotic.png',
       link: 'https://github.com/OmarJabri7/Robotics-Football',
     },
