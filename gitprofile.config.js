@@ -1,15 +1,15 @@
 // gitprofile.config.js
 
 const config = {
-  github: {
-    username: 'OmarJabri7', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
-    exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
-    },
-  },
+  // github: {
+  //   username: 'OmarJabri7', // Your GitHub org/user name. (Required)
+  //   sortBy: 'stars', // stars | updated
+  //   limit: 10, // How many projects to display.
+  //   exclude: {
+  //     forks: false, // Forked projects will not be displayed if set to true.
+  //     projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+  //   },
+  // },
   social: {
     linkedin: 'https://www.linkedin.com/in/omarjabri23/',
     email: 'omarjabri967@gmail.com',// example: '1/jeff-atwood'
@@ -83,22 +83,22 @@ const config = {
   ],
 
   // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
-    {
-      title: 'Cycle Buddy',
-      description:
-        "Our project, Cycle Buddy, is a system that detects cars that endanger everyday cyclists.\nOnce the car overpasses the biker's path with a relative high speed and within a close distance, the system can detect this unjust act and stimulates a camera to capture the car's plate number and recognizes it using a Computer Vision API.",
-      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/Cycle_Buddy/main/Images/logo/Logo.png',
-      link: 'https://github.com/OmarJabri7/Cycle_Buddy',
-    },
-    {
-      title: 'Robotics RoboCup Challenge',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://raw.githubusercontent.com/szgula/UofG_Robotics_TDP/main/Images/Log/Robotic.png',
-      link: 'https://github.com/OmarJabri7/Robotics-Football',
-    },
-  ],
+  // externalProjects: [
+  //   {
+  //     title: 'Cycle Buddy',
+  //     description:
+  //       "Our project, Cycle Buddy, is a system that detects cars that endanger everyday cyclists.\nOnce the car overpasses the biker's path with a relative high speed and within a close distance, the system can detect this unjust act and stimulates a camera to capture the car's plate number and recognizes it using a Computer Vision API.",
+  //     imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/Cycle_Buddy/main/Images/logo/Logo.png',
+  //     link: 'https://github.com/OmarJabri7/Cycle_Buddy',
+  //   },
+  //   {
+  //     title: 'Robotics RoboCup Challenge',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+  //     imageUrl: 'https://raw.githubusercontent.com/szgula/UofG_Robotics_TDP/main/Images/Log/Robotic.png',
+  //     link: 'https://github.com/OmarJabri7/Robotics-Football',
+  //   },
+  // ],
   // Display blog posts from your medium or dev account. (Optional)
   // blog: {
   //   source: 'dev', // medium | dev
