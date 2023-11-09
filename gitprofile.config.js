@@ -98,6 +98,13 @@ const config = {
       imageUrl: 'https://raw.githubusercontent.com/szgula/UofG_Robotics_TDP/main/Images/Log/Robotic.png',
       link: 'https://github.com/OmarJabri7/Robotics-Football',
     },
+    {
+      title: 'Robotics Chess',
+      description:
+        "Developed a simulation using ROS of the Baxter robot setting up a chess game following a set of rules and using its propeller arm to move chess pieces accordingly\nTools: Python, ROS, Rviz, Gazebo, Linux",
+      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/Baxter-Chess-Robot/main/Screenshot%202023-11-09%20at%2011.17.07%20PM.png',
+      link: 'https://github.com/OmarJabri7/Baxter-Chess-Robot',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   // blog: {
