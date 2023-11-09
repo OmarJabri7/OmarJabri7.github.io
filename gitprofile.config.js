@@ -105,6 +105,13 @@ const config = {
       imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/Baxter-Chess-Robot/main/Screenshot%202023-11-09%20at%2011.17.07%20PM.png',
       link: 'https://github.com/OmarJabri7/Baxter-Chess-Robot',
     },
+    {
+      title: 'Exploverse NFT System',
+      description:
+        "Developed an NFT generation system that randomly generates n configurable sets of NFTs using rarities and weights aligned with different traits within the configurations\nTools: Python, Go, Solidity",
+      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/Exploverse-System/main/imgs_4_gif/WhatsApp%20Image%202022-01-21%20at%2012.09.23.jpeg',
+      link: 'https://github.com/OmarJabri7/Exploverse-System/tree/main',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   // blog: {
