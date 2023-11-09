@@ -112,6 +112,13 @@ const config = {
       imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/Exploverse-System/main/imgs_4_gif/WhatsApp%20Image%202022-01-21%20at%2012.09.23.jpeg',
       link: 'https://github.com/OmarJabri7/Exploverse-System/tree/main',
     },
+    {
+      title: 'Python Web Crawler/Scraper',
+      description:
+        "The system is a web scraping tool that automates the collection and processing of articles from Google searches based on user queries, using `selenium` for navigation and `BeautifulSoup` for parsing, and saves the data in JSON and CSV formats.\nTools: Python, Selenium",
+      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/news_scrapers/main/web-crawler.png?token=GHSAT0AAAAAACJ3YKR4MCPZXBMSX6VPVCREZKNN6EA',
+      link: 'https://github.com/OmarJabri7/news_scrapers/tree/main',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   // blog: {
