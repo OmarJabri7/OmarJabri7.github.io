@@ -58,6 +58,13 @@ const config = {
       to: 'July 2023',
       companyLink: 'https://www.jpmorganchase.com/',
     },
+    {
+      company: 'Next Care',
+      position: 'Software + Computer Vision Engineer',
+      from: 'Jan 2020',
+      to: 'July 2020',
+      companyLink: 'https://www.nextcarehealth.com/',
+    },
   ],
   /* certifications: [
     {
