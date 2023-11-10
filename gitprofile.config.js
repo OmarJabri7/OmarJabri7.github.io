@@ -85,11 +85,11 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Cycle Buddy',
+      title: 'Clinical Speech to Medical Documents',
       description:
-        "Our project, Cycle Buddy, is a system that detects cars that endanger everyday cyclists.\nOnce the car overpasses the biker's path with a relative high speed and within a close distance, the system can detect this unjust act and stimulates a camera to capture the car's plate number and recognizes it using a Computer Vision API.\nTools: C++, Python, OpenCV, RaspberryPi",
-      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/Cycle_Buddy/main/Images/logo/Logo.png',
-      link: 'https://github.com/OmarJabri7/Cycle_Buddy',
+      "This system is an interactive application designed for medical professionals to capture and integrate notes into documents via voice commands. Utilizing Google Cloud's Speech-to-Text for transcription, it enhances documentation workflows by transcribing spoken language in real time, ensuring accurate entries into medical records.\nTools: Google Cloud Speech-to-Text, Tesseract OCR",
+      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/DNGR/main/lib/assets/ramosa_logo_2.png',
+      link: 'https://github.com/OmarJabri7/Speech-to-Medical-Documents/tree/main',
     },
     {
       title: 'Robotics RoboCup Challenge',
