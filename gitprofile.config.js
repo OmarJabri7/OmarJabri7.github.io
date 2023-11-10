@@ -87,9 +87,16 @@ const config = {
     {
       title: 'Clinical Speech to Medical Documents',
       description:
-      "This system is an interactive application designed for medical professionals to capture and integrate notes into documents via voice commands. Utilizing Google Cloud's Speech-to-Text for transcription, it enhances documentation workflows by transcribing spoken language in real time, ensuring accurate entries into medical records.\nTools: Google Cloud Speech-to-Text, Tesseract OCR",
+      "This system is an interactive application designed for medical professionals to capture and integrate notes into documents via voice commands. Utilizing Google Cloud's Speech-to-Text for transcription, it enhances documentation workflows by transcribing spoken language in real time, ensuring accurate entries into medical records.\nTools: Python, OpenCV, Google Cloud Speech-to-Text, Tesseract OCR",
       imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/DNGR/main/lib/assets/ramosa_logo_2.png',
       link: 'https://github.com/OmarJabri7/Speech-to-Medical-Documents/tree/main',
+    },
+    {
+      title: 'Bio Signal Real Time AI Denoiser',
+      description:
+        "The 'Synthetic EEG Artifact Removal System' is a sophisticated toolkit for EEG signal enhancement. This system specializes in generating synthetic EEG waves, establishing noise sources, and evaluating signal-to-noise ratios. It incorporates advanced statistical methods to confirm the efficacy of noise filtering techniques. The toolkit is developed with a combination of Makefile, C++, Python, C, CMake, and Shell scripts, showcasing a versatile and robust approach to bio-signal processing.\nTools: C++, Python, C, CMake, Makefile, Shell.",
+      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/Bio-Signal-Artifact-Removal/main/eeg.png',
+      link: 'https://github.com/OmarJabri7/Bio-Signal-Artifact-Removal',
     },
     {
       title: 'Robotics RoboCup Challenge',
