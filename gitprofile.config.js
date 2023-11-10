@@ -66,14 +66,20 @@ const config = {
       companyLink: 'https://www.nextcarehealth.com/',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Python Gold Certificate',
+      body: 'Official Testdome Certificate',
+      year: 'May 2021',
+      link: 'https://www.testdome.com/certificates/530ef59dd82e4e6fbb2cb491a53d068e'
     },
-  ], */
+    {
+      name: 'Python Data Science Silver Certificate',
+      body: 'Official Testdome Certificate',
+      year: 'March 2021',
+      link: 'https://www.testdome.com/certificates/9cca03c382e64d61a4c7d4f22855ce07'
+    },
+  ], 
   education: [
     {
       institution: 'University of Glasgow',
