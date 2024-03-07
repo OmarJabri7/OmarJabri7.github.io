@@ -26,7 +26,10 @@ const config = {
     'React.js',
     'SQL',
     'MongoDB',
-    'AWS',
+    'AWS Lambda',
+    'AWS EKS/ECR',
+    'Kubernetes',
+    'AWS Amplify',
     'PostgreSQL',
     'Git',
     'Docker',
@@ -45,11 +48,11 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Ivy',
-      position: 'Machine Learning Engineer (Redundancies due to Company Financial Issues)',
-      from: 'August 2023',
-      to: 'September 2023',
-      companyLink: 'https://unify.ai',
+      company: 'Dxcover',
+      position: 'Software Engineer',
+      from: 'December 2023',
+      to: 'Present',
+      companyLink: 'https://www.dxcover.com',
     },
     {
       company: 'JP Morgan and Chase',
@@ -79,7 +82,7 @@ const config = {
       year: 'March 2021',
       link: 'https://www.testdome.com/certificates/9cca03c382e64d61a4c7d4f22855ce07'
     },
-  ], 
+  ],
   education: [
     {
       institution: 'University of Glasgow',
@@ -100,7 +103,7 @@ const config = {
     {
       title: 'Clinical Speech to Medical Documents',
       description:
-      "This system is an interactive application designed for medical professionals to capture and integrate notes into documents via voice commands. Utilizing Google Cloud's Speech-to-Text for transcription, it enhances documentation workflows by transcribing spoken language in real time, ensuring accurate entries into medical records.\nTools: Python, OpenCV, Google Cloud Speech-to-Text, Tesseract OCR",
+        "This system is an interactive application designed for medical professionals to capture and integrate notes into documents via voice commands. Utilizing Google Cloud's Speech-to-Text for transcription, it enhances documentation workflows by transcribing spoken language in real time, ensuring accurate entries into medical records.\nTools: Python, OpenCV, Google Cloud Speech-to-Text, Tesseract OCR",
       imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/DNGR/main/lib/assets/ramosa_logo_2.png',
       link: 'https://github.com/OmarJabri7/Speech-to-Medical-Documents/tree/main',
     },
