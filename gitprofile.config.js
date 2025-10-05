@@ -2,227 +2,182 @@
 
 const config = {
   github: {
-    username: 'OmarJabri7', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 2, // How many projects to display.
-    exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
-    },
+    username: 'OmarJabri7',
+    sortBy: 'stars',
+    limit: 6,
+    exclude: { forks: false, projects: [] },
   },
+
   social: {
     linkedin: 'https://www.linkedin.com/in/omarjabri23/',
-    email: 'omarjabri967@gmail.com',// example: '1/jeff-atwood'
+    email: 'omarjabri967@gmail.com',
     website: 'https://omarjabri7.github.io/',
     phone: '+44 7926754605',
   },
+
   resume: {
-    fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Add your resume PDF link if you want a download button
   },
+
   skills: [
     'Python',
     'C++',
     'React.js',
     'SQL',
     'MongoDB',
-    'AWS Lambda',
-    'AWS EKS/ECR',
-    'Kubernetes',
-    'AWS Amplify',
     'PostgreSQL',
-    'Git',
-    'Docker',
     'MySQL',
     'Redis',
-    'OpenCV',
+    'Docker',
+    'Kubernetes',
+    'AWS Lambda',
+    'AWS EKS/ECR',
+    'AWS Amplify',
+    'AWS API Gateway',
+    'Azure AKS',
+    'GCP GKE',
     'Pandas',
-    'Tensorflow',
-    'Hypothesis',
-    'Pytorch',
+    'NumPy',
+    'TensorFlow',
+    'PyTorch',
+    'OpenCV',
+    'FastAPI',
     'Flask',
-    'Fast API',
+    'LangChain',
+    'RAG',
+    'CI/CD',
+    'GitHub Actions',
     'Jenkins',
-    'Bottle',
-    'RabbitMQ'
+    'RabbitMQ',
+    'Linux',
+    'TDD',
   ],
+
   experiences: [
+    {
+      company: 'JP Morgan & Chase',
+      position: 'Software Engineer',
+      from: 'Mar 2025',
+      to: 'Present',
+      companyLink: 'https://www.jpmorganchase.com/',
+    },
+    {
+      company: 'Hanzo',
+      position: 'Software Engineer (Contract)',
+      from: 'May 2024',
+      to: 'Mar 2025',
+      companyLink: 'https://www.hanzo.co/',
+    },
     {
       company: 'Dxcover',
       position: 'Software Engineer',
-      from: 'December 2023',
-      to: 'Present',
-      companyLink: 'https://www.dxcover.com',
+      from: 'Dec 2023',
+      to: 'May 2024',
+      companyLink: 'https://www.dxcover.com/',
     },
     {
-      company: 'JP Morgan and Chase',
+      company: 'JP Morgan & Chase',
       position: 'Software Engineer',
-      from: 'November 2021',
-      to: 'July 2023',
+      from: 'Nov 2021',
+      to: 'Jul 2023',
       companyLink: 'https://www.jpmorganchase.com/',
     },
     {
       company: 'Next Care',
-      position: 'Software + Computer Vision Engineer',
+      position: 'Software & Computer Vision Engineer',
       from: 'Jan 2020',
-      to: 'July 2020',
+      to: 'Jul 2020',
       companyLink: 'https://www.nextcarehealth.com/',
     },
   ],
+
   certifications: [
     {
       name: 'Python Gold Certificate',
       body: 'Official Testdome Certificate',
       year: 'May 2021',
-      link: 'https://www.testdome.com/certificates/530ef59dd82e4e6fbb2cb491a53d068e'
+      link: 'https://www.testdome.com/certificates/530ef59dd82e4e6fbb2cb491a53d068e',
     },
     {
       name: 'Python Data Science Silver Certificate',
       body: 'Official Testdome Certificate',
-      year: 'March 2021',
-      link: 'https://www.testdome.com/certificates/9cca03c382e64d61a4c7d4f22855ce07'
+      year: 'Mar 2021',
+      link: 'https://www.testdome.com/certificates/9cca03c382e64d61a4c7d4f22855ce07',
     },
   ],
+
   education: [
     {
       institution: 'University of Glasgow',
-      degree: "Master's Degree in Robotics and Artificial Intelligence",
+      degree: "MSc in Robotics and Artificial Intelligence",
       from: '2020',
       to: '2021',
     },
     {
       institution: 'Lebanese American University',
-      degree: "Bachelor's Degtee in Computer Science",
+      degree: "BSc in Computer Science",
       from: '2016',
       to: '2019',
     },
   ],
 
-  // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Clinical Speech to Medical Documents',
+      title: 'AfterWords',
       description:
-        "This system is an interactive application designed for medical professionals to capture and integrate notes into documents via voice commands. Utilizing Google Cloud's Speech-to-Text for transcription, it enhances documentation workflows by transcribing spoken language in real time, ensuring accurate entries into medical records.\nTools: Python, OpenCV, Google Cloud Speech-to-Text, Tesseract OCR",
-      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/DNGR/main/lib/assets/ramosa_logo_2.png',
-      link: 'https://github.com/OmarJabri7/Speech-to-Medical-Documents/tree/main',
+        'LLM-driven voice-cloning pipeline on AWS Lambda using Docker + ECR. Orchestrated with LangChain and Terraform for fully automated, serverless infrastructure.\nTools: Python, AWS Lambda, Docker, ECR, Terraform, LangChain',
+      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/AfterWords/main/docs/afterwords.png',
+      link: 'https://github.com/OmarJabri7/AfterWords',
     },
     {
-      title: 'Bio Signal Real Time AI Denoiser',
+      title: 'LexMed',
       description:
-        "The 'Synthetic EEG Artifact Removal System' is a sophisticated toolkit for EEG signal enhancement. This system specializes in generating synthetic EEG waves, establishing noise sources, and evaluating signal-to-noise ratios. It incorporates advanced statistical methods to confirm the efficacy of noise filtering techniques. The toolkit is developed with a combination of Makefile, C++, Python, C, CMake, and Shell scripts, showcasing a versatile and robust approach to bio-signal processing.\nTools: C++, Python, C, CMake, Makefile, Shell.",
-      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/Bio-Signal-Artifact-Removal/main/eeg.png',
-      link: 'https://github.com/OmarJabri7/Bio-Signal-Artifact-Removal',
+        'Built a Retrieval-Augmented Generation (RAG) system for doctors, leveraging LangChain and ChromaDB to process and query DICOM medical data. Enables natural language Q&A and summarization on large patient datasets.\nTools: Python, LangChain, RAG, ChromaDB, DICOM',
+      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/LexMed/main/docs/lexmed.png',
+      link: 'https://github.com/OmarJabri7/LexMed',
     },
     {
-      title: 'Robotics RoboCup Challenge',
+      title: 'AliExpress Store Analyzer',
       description:
-        "This project is about designing and simulating the RoboCup challenge - the football match with robots as players. The simulation involves two teams of five robots competing against each other. The robots are designed as two-wheel differential drive machines with an internal logic processor and a capability to communicate with different robots. Our design is presented in a simulated environment that takes into account all constraints of the challenge.\nTools: Python, ROS, PyGame",
-      imageUrl: 'https://raw.githubusercontent.com/szgula/UofG_Robotics_TDP/main/Images/Log/Robotic.png',
-      link: 'https://github.com/OmarJabri7/Robotics-Football',
+        'Streamlit + FastAPI application to scrape and analyze AliExpress store data using Selenium, proxy rotation, and LangChain for structured extraction. Delivered interactive dashboards for insights.\nTools: Python, FastAPI, Streamlit, Selenium, LangChain',
+      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/scraper/main/docs/scraper.png',
+      link: 'https://github.com/OmarJabri7/scraper',
     },
     {
-      title: 'Robotics Chess',
+      title: 'GoHalalPy',
       description:
-        "Developed a simulation using ROS of the Baxter robot setting up a chess game following a set of rules and using its propeller arm to move chess pieces accordingly\nTools: Python, ROS, Rviz, Gazebo, Linux",
-      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/Baxter-Chess-Robot/main/Screenshot%202023-11-09%20at%2011.17.07%20PM.png',
-      link: 'https://github.com/OmarJabri7/Baxter-Chess-Robot',
+        'LLM-powered FastAPI service for halal restaurant classification using LangChain + OpenAI. Integrated Firebase Firestore with geohashing for scalable storage and retrieval.\nTools: Python, FastAPI, LangChain, Firebase Firestore',
+      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/GoHalalPy/main/docs/gohalal.png',
+      link: 'https://github.com/OmarJabri7/GoHalalPy',
     },
     {
-      title: 'Exploverse NFT System',
+      title: 'Speech-to-Medical-Documents',
       description:
-        "Developed an NFT generation system that randomly generates n configurable sets of NFTs using rarities and weights aligned with different traits within the configurations\nTools: Python, Go, Solidity",
-      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/Exploverse-System/main/imgs_4_gif/WhatsApp%20Image%202022-01-21%20at%2012.09.23.jpeg',
-      link: 'https://github.com/OmarJabri7/Exploverse-System/tree/main',
-    },
-    {
-      title: 'Python Web Crawler/Scraper',
-      description:
-        "The system is a web scraping tool that automates the collection and processing of articles from Google searches based on user queries, using `selenium` for navigation and `BeautifulSoup` for parsing, and saves the data in JSON and CSV formats.\nTools: Python, Selenium",
-      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/news_scrapers/main/web-crawler.png?token=GHSAT0AAAAAACJ3YKR4MCPZXBMSX6VPVCREZKNN6EA',
-      link: 'https://github.com/OmarJabri7/news_scrapers/tree/main',
+        'Voice-driven clinical documentation tool that converts doctors’ speech into structured medical forms. Built with Google Speech-to-Text, Tesseract OCR, and automated PDF generation for healthcare workflows.\nTools: Python, GCP Speech-to-Text, Tesseract OCR',
+      imageUrl: 'https://raw.githubusercontent.com/OmarJabri7/Speech-to-Medical-Documents/main/docs/speech.png',
+      link: 'https://github.com/OmarJabri7/Speech-to-Medical-Documents',
     },
   ],
-  // Display blog posts from your medium or dev account. (Optional)
-  // blog: {
-  //   source: 'dev', // medium | dev
-  //   username: 'arifszn', // to hide blog section, keep it empty
-  //   limit: 2, // How many posts to display. Max is 10.
-  // },
-  googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  },
-  // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
+
+  googleAnalytics: { id: '' },
+  hotjar: { id: '', snippetVersion: 6 },
+
   themeConfig: {
     defaultTheme: 'light',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
     disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
-
-    // Hide the ring in Profile picture
     hideAvatarRing: false,
-
-    // Available themes. To remove any theme, exclude from here.
-    themes: [
-      'light',
-      'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'procyon',
-    ],
-
-    // Custom theme
+    themes: ['light', 'dark', 'business', 'dracula', 'luxury', 'night'],
     customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
-      '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
+      primary: '#2563eb',
+      secondary: '#10b981',
+      accent: '#f59e0b',
+      neutral: '#1f2937',
+      'base-100': '#f3f4f6',
+      '--rounded-box': '1.5rem',
+      '--rounded-btn': '1.5rem',
     },
   },
-
-  // Optional Footer. Supports plain text or HTML.
-  // footer: `Made with <a 
-  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
-  //     target="_blank"
-  //     rel="noreferrer"
-  //   >GitProfile</a> and ❤️`,
 };
 
 export default config;
